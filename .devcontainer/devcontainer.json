@@ -1,0 +1,16 @@
+{
+  "name": "python for class",
+  "dockerFile": "../Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "Llam4u.nerdtree",
+        "christian-kohler.path-intellisense"
+      ]
+    }
+  }
+}

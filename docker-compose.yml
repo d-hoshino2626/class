@@ -1,0 +1,12 @@
+version: 3.9
+
+servvices:
+  python-env:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/class
+    working_dir: /class
+    stdin_open: true
+    tty: true
